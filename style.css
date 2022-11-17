@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.nft-card-container {
+  width: 350px;
+  height: 596px;
+  overflow: hidden;
+  background-color: #15263f;
+  border-radius: 15px;
+  padding: 24px;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #f2f2f2;
+  max-width: 1440px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #0d192c;
+
+}
+
+img.equilibrium-pic {
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+  padding: 16px 0;
+}
+
+p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #8bacd9;
+}
+
+div.eth-days {
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+}
+div.clock-days {
+  display: flex;
+  align-items: center;
+}
+div.eth-icon {
+  display: flex;
+  align-items: center;
+}
+
+span.days {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8bacd9;
+  padding: 0 0 0 7px;
+}
+
+span.eth {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #00fff8;
+  padding: 0 0 0 6.48px;
+}
+
+img.avatar {
+  width: 33px;
+  height: 33px;
+  left: 6.86%;
+  right: 83.71%;
+  top: 89.09%;
+  bottom: 5.37%;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+
+div.line {
+  border: 1px solid #2e405a;
+}
+span.bottom-text {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8bacd9;
+  padding: 0 5px 0 16px;
+}
+span.auth {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+div.bottom {
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+}
